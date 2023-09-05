@@ -869,6 +869,13 @@
                     "maxLength": 5
                 }
             ]
+        },
+        {
+            "key": "c0c24827-655d-443a-a9c7-47595bfa5e36",
+            "title": "خلفية الصفحة",
+            "icon": "sicon-image1",
+            "path": "home.Parallax_background",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
