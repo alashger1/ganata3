@@ -925,6 +925,13 @@
                     "maxLength": 5
                 }
             ]
+        },
+        {
+            "key": "28e60723-fc15-4c67-8b79-91c70e2e6a83",
+            "title": "مركات",
+            "icon": "sicon-store",
+            "path": "home.mybrands",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
