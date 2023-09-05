@@ -819,7 +819,56 @@
             "title": "بنرات ثابتة",
             "icon": "sicon-store",
             "path": "home.banner",
-            "fields": []
+            "fields": [
+                {
+                    "id": "collection1",
+                    "key": "4f147524-dbda-4a61-bb55-8f5591060034",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "بنرات ثابيتة",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "image",
+                            "key": "df2f3896-843a-474d-b19e-1491455664ed",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false,
+                            "defaulted": true
+                        },
+                        {
+                            "id": "string",
+                            "key": "c8455a13-5476-465b-b0d3-f907b8bc9b4f",
+                            "type": "string",
+                            "format": "text",
+                            "label": "String",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30,
+                            "defaulted": true
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
