@@ -813,6 +813,13 @@
                     "defaulted": true
                 }
             ]
+        },
+        {
+            "key": "e23acb33-43dc-42cd-8e48-6a5e4abfefc1",
+            "title": "بنرات ثابتة",
+            "icon": "sicon-store",
+            "path": "home.banner",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
