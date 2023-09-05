@@ -750,7 +750,7 @@
             "fields": [
                 {
                     "id": "collection",
-                    "key": "f491c2d9-f279-4d20-9e87-6556eab7ee1a",
+                    "key": "1f9d449c-4bcf-4d68-8c11-9984fd4aaa3e",
                     "type": "collection",
                     "format": "collection",
                     "label": "Collection",
@@ -760,19 +760,24 @@
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "title",
-                            "key": "e62fb93e-d7b6-460c-b664-228d22453097",
-                            "type": "static",
-                            "format": "title",
-                            "label": "Title",
+                            "id": "text",
+                            "key": "72320b8b-cd79-4967-ac3c-2d451c2802eb",
+                            "type": "string",
+                            "format": "text",
+                            "label": "text",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
                             "value": null,
-                            "variant": "h1",
-                            "icon": "sicon-format-text",
-                            "defaulted": true
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
                         },
                         {
                             "id": "image",
-                            "key": "b90d6d07-78e4-48e4-86dd-c810b99a11bb",
+                            "key": "3f11cd25-8e7d-4af2-990b-948e2cff1edb",
                             "type": "string",
                             "format": "image",
                             "label": "Image",
@@ -785,21 +790,20 @@
                             "defaulted": true
                         },
                         {
-                            "id": "url",
-                            "key": "888d2ecb-1d63-40be-a404-6eb2e4aae20d",
+                            "id": "string",
+                            "key": "dea2274b-35cf-4fe3-880f-d0a1c2f66e55",
                             "type": "string",
-                            "format": "url",
-                            "inputType": "url",
-                            "label": "URL",
+                            "format": "text",
+                            "label": "String",
                             "description": null,
                             "labelHTML": null,
-                            "placeholder": "e.g. https://salla.sa",
-                            "icon": "sicon-link",
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
                             "value": null,
+                            "multilanguage": false,
                             "required": false,
                             "minLength": 6,
-                            "maxLength": 30,
-                            "defaulted": true
+                            "maxLength": 30
                         }
                     ],
                     "value": [],
