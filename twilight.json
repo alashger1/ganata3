@@ -875,7 +875,56 @@
             "title": "خلفية الصفحة",
             "icon": "sicon-image1",
             "path": "home.Parallax_background",
-            "fields": []
+            "fields": [
+                {
+                    "id": "background_id",
+                    "key": "b4328b3d-959b-4126-af8d-03a094d82723",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "image",
+                            "key": "93787bbe-3495-418b-ae23-f73691b3b17d",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": "500px*750pe",
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": true,
+                            "defaulted": true
+                        },
+                        {
+                            "id": "integer",
+                            "key": "92bd428d-aad6-44b5-b243-5a6b42054dcc",
+                            "type": "number",
+                            "format": "integer",
+                            "inputType": "number",
+                            "label": "Integer",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Input an integer number between 5 and 50.",
+                            "icon": "sicon-hashtag",
+                            "value": null,
+                            "required": false,
+                            "minimum": 0,
+                            "maximum": 50,
+                            "defaulted": true
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
