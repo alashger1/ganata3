@@ -931,7 +931,111 @@
             "title": "مركات",
             "icon": "sicon-store",
             "path": "home.mybrands",
-            "fields": []
+            "fields": [
+                {
+                    "id": "id_baedr",
+                    "key": "6310d8a0-a6b9-4270-8bb0-d31f6b91ca2b",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "id",
+                            "key": "f8e5b081-78ef-4507-b25f-582e8f826633",
+                            "type": "number",
+                            "format": "float",
+                            "inputType": "number",
+                            "label": null,
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Input a number between -10.10 and 100.",
+                            "icon": "sicon-hashtag",
+                            "value": null,
+                            "required": false,
+                            "step": 0.1,
+                            "minimum": -10.1,
+                            "maximum": 100
+                        },
+                        {
+                            "id": "name",
+                            "key": "38f0a8c5-791a-4e5f-b018-e0d027d46cfb",
+                            "type": "number",
+                            "format": "float",
+                            "inputType": "number",
+                            "label": null,
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Input a number between -10.10 and 100.",
+                            "icon": "sicon-hashtag",
+                            "value": null,
+                            "required": false,
+                            "step": 0.1,
+                            "minimum": -10.1,
+                            "maximum": 100
+                        },
+                        {
+                            "id": "url1",
+                            "key": "28329b24-d1ba-4392-86d7-b52a261bd42e",
+                            "type": "string",
+                            "format": "url",
+                            "inputType": "url",
+                            "label": null,
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://salla.sa",
+                            "icon": "sicon-link",
+                            "value": null,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "loge",
+                            "key": "1b93ff22-f6d0-4a40-a2b8-227801629b4f",
+                            "type": "string",
+                            "format": "image",
+                            "label": null,
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "banner",
+                            "key": "bd20bdc8-15ce-4b79-a4c6-7c04584be120",
+                            "type": "string",
+                            "format": "image",
+                            "label": null,
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "brand",
+                            "key": "b9deb45d-d596-48ef-ae4f-457a9a9a36c2",
+                            "type": "static",
+                            "format": "description",
+                            "label": null,
+                            "value": null,
+                            "variant": "h1",
+                            "icon": "sicon-format-size"
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
