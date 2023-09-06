@@ -1117,8 +1117,29 @@
             "path": "home.photos_slider",
             "fields": [
                 {
+                    "id": "description",
+                    "key": "d2bca294-ef91-48eb-a601-d27a7235c739",
+                    "type": "static",
+                    "format": "description",
+                    "label": "Description",
+                    "value": "عنوان فرعي",
+                    "variant": "h1",
+                    "icon": "sicon-format-size"
+                },
+                {
+                    "id": "description_copy",
+                    "key": "3599af8b-46e9-4ad0-93ca-5f6e3afdad52",
+                    "type": "static",
+                    "format": "description",
+                    "label": "Description copy",
+                    "value": "عنوان رائسي",
+                    "variant": "h1",
+                    "icon": "sicon-format-size",
+                    "defaulted": true
+                },
+                {
                     "id": "sor_mthrkt",
-                    "key": "f580fb9b-2bbb-4bec-ae78-1f8e480b9950",
+                    "key": "4b70890e-9275-43e3-910e-37ebda472ba9",
                     "type": "collection",
                     "format": "collection",
                     "label": "صور متحركة",
@@ -1129,7 +1150,7 @@
                     "fields": [
                         {
                             "id": "sorh_albnr",
-                            "key": "e020fa59-268a-4ddd-b8e0-c5493d07af02",
+                            "key": "afcb0c88-0909-4912-bcd5-32b870490120",
                             "type": "string",
                             "format": "image",
                             "label": "صوره البنر",
@@ -1139,22 +1160,6 @@
                             "icon": "sicon-image",
                             "value": null,
                             "required": false
-                        },
-                        {
-                            "id": "rabt_llaansr",
-                            "key": "099ab838-6689-40af-b1d1-aa3aef80e536",
-                            "type": "string",
-                            "format": "url",
-                            "inputType": "url",
-                            "label": "رابط للعنصر",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "e.g. https://salla.sa",
-                            "icon": "sicon-link",
-                            "value": null,
-                            "required": false,
-                            "minLength": 6,
-                            "maxLength": 30
                         }
                     ],
                     "value": [],
