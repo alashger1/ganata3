@@ -1134,7 +1134,7 @@
             "fields": [
                 {
                     "id": "static-desc",
-                    "key": "0982b170-7174-4556-8781-46743554deae",
+                    "key": "a33214d3-6d98-4316-be7c-bdf67758558f",
                     "type": "static",
                     "format": "description",
                     "label": null,
@@ -1144,7 +1144,7 @@
                 },
                 {
                     "id": "static-note",
-                    "key": "6acb4897-653f-4381-bb15-e83aa53c9686",
+                    "key": "1c73fc2c-478a-4a85-b2c7-3fd20321757c",
                     "type": "static",
                     "format": "description",
                     "label": null,
@@ -1153,8 +1153,8 @@
                     "icon": "sicon-format-size"
                 },
                 {
-                    "id": "sor_mthrkt",
-                    "key": "618ae6d5-3a18-45bd-9b58-6e631d80dfa6",
+                    "id": "slides",
+                    "key": "1421d82d-9415-4e1a-bb70-275aaf9d5ef3",
                     "type": "collection",
                     "format": "collection",
                     "label": "صور متحركة",
@@ -1165,7 +1165,7 @@
                     "fields": [
                         {
                             "id": "slides.image",
-                            "key": "fb09f09e-19cc-465f-82a3-59d62e757ea1",
+                            "key": "db499860-b378-4f62-9897-71db0e41f1f7",
                             "type": "string",
                             "format": "image",
                             "label": "صوره البنر",
@@ -1178,7 +1178,7 @@
                         },
                         {
                             "id": "slides.title",
-                            "key": "bc2b7d1a-ec5b-4b0d-96b6-08e337ca5737",
+                            "key": "4c5fc116-8167-417b-8b70-2306118e4823",
                             "type": "string",
                             "format": "text",
                             "label": "عنوان رئيسي",
@@ -1194,7 +1194,7 @@
                         },
                         {
                             "id": "slides.description",
-                            "key": "ce579b55-7dc9-433f-bcd1-a2dcb106217c",
+                            "key": "7e9c6885-6fb0-4cbc-a15a-670e04db3b27",
                             "type": "string",
                             "format": "text",
                             "label": "نص إضافي",
