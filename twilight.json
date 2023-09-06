@@ -934,7 +934,7 @@
             "fields": [
                 {
                     "id": "id_baedr",
-                    "key": "6310d8a0-a6b9-4270-8bb0-d31f6b91ca2b",
+                    "key": "e1249ecf-79af-4abe-9cb4-b0c2d974152c",
                     "type": "collection",
                     "format": "collection",
                     "label": "Collection",
@@ -945,7 +945,7 @@
                     "fields": [
                         {
                             "id": "id",
-                            "key": "f8e5b081-78ef-4507-b25f-582e8f826633",
+                            "key": "fa3a73e6-bee9-4d2a-b69a-ce8da588cf81",
                             "type": "number",
                             "format": "float",
                             "inputType": "number",
@@ -962,7 +962,7 @@
                         },
                         {
                             "id": "name",
-                            "key": "38f0a8c5-791a-4e5f-b018-e0d027d46cfb",
+                            "key": "d8af7c85-906d-4956-ba18-fcc5677fd1e2",
                             "type": "number",
                             "format": "float",
                             "inputType": "number",
@@ -979,7 +979,7 @@
                         },
                         {
                             "id": "url1",
-                            "key": "28329b24-d1ba-4392-86d7-b52a261bd42e",
+                            "key": "37f2638b-96e2-4db7-94df-5d6dafcb574d",
                             "type": "string",
                             "format": "url",
                             "inputType": "url",
@@ -995,7 +995,7 @@
                         },
                         {
                             "id": "loge",
-                            "key": "1b93ff22-f6d0-4a40-a2b8-227801629b4f",
+                            "key": "037c9099-6a75-4929-8811-6d7d3df2c589",
                             "type": "string",
                             "format": "image",
                             "label": null,
@@ -1008,7 +1008,7 @@
                         },
                         {
                             "id": "banner",
-                            "key": "bd20bdc8-15ce-4b79-a4c6-7c04584be120",
+                            "key": "b445a2c1-0217-412d-bdd8-8ad3d9e94265",
                             "type": "string",
                             "format": "image",
                             "label": null,
@@ -1021,7 +1021,7 @@
                         },
                         {
                             "id": "brand",
-                            "key": "b9deb45d-d596-48ef-ae4f-457a9a9a36c2",
+                            "key": "2e42e727-6aa9-4332-9fa4-d2dec6e051c5",
                             "type": "static",
                             "format": "description",
                             "label": null,
