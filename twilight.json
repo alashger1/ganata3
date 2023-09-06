@@ -1043,6 +1043,13 @@
             "icon": "sicon-store",
             "path": "home.Latest_Products",
             "fields": []
+        },
+        {
+            "key": "075d60b4-969b-41e1-bbc1-0198bb56dd1f",
+            "title": "التوصيات",
+            "icon": "sicon-bold",
+            "path": "home.mytestimonials",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
