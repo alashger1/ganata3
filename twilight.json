@@ -1115,7 +1115,54 @@
             "title": "صور متحركة",
             "icon": "sicon-store",
             "path": "home.photos_slider",
-            "fields": []
+            "fields": [
+                {
+                    "id": "sor_mthrkt",
+                    "key": "f580fb9b-2bbb-4bec-ae78-1f8e480b9950",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "صور متحركة",
+                    "description": "link_type",
+                    "labelHTML": null,
+                    "item_label": "صور متحركة",
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "sorh_albnr",
+                            "key": "e020fa59-268a-4ddd-b8e0-c5493d07af02",
+                            "type": "string",
+                            "format": "image",
+                            "label": "صوره البنر",
+                            "description": "الصوره 600*600",
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "rabt_llaansr",
+                            "key": "099ab838-6689-40af-b1d1-aa3aef80e536",
+                            "type": "string",
+                            "format": "url",
+                            "inputType": "url",
+                            "label": "رابط للعنصر",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://salla.sa",
+                            "icon": "sicon-link",
+                            "value": null,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
