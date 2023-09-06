@@ -1049,7 +1049,66 @@
             "title": "التوصيات",
             "icon": "sicon-bold",
             "path": "home.mytestimonials",
-            "fields": []
+            "fields": [
+                {
+                    "id": "collection_25",
+                    "key": "427e8924-1c52-42bf-8d4c-758a5752172a",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "description",
+                            "key": "ab413cd4-73cb-41c8-82a6-41077e735652",
+                            "type": "static",
+                            "format": "description",
+                            "label": "Description",
+                            "value": null,
+                            "variant": "h1",
+                            "icon": "sicon-format-size"
+                        },
+                        {
+                            "id": "image",
+                            "key": "4ce4380b-d0a4-4ae1-aa2e-6661a6f40688",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "number",
+                            "key": "ebf80aa9-a143-4e56-8312-57c33468cde1",
+                            "type": "number",
+                            "format": "float",
+                            "inputType": "number",
+                            "label": "Number",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Input a number between -10.10 and 100.",
+                            "icon": "sicon-hashtag",
+                            "value": null,
+                            "required": false,
+                            "step": 0.1,
+                            "minimum": -10.1,
+                            "maximum": 100,
+                            "defaulted": true
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
