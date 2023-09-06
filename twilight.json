@@ -1134,17 +1134,17 @@
             "fields": [
                 {
                     "id": "static-desc",
-                    "key": "a33214d3-6d98-4316-be7c-bdf67758558f",
+                    "key": "7935a968-a667-48e0-a3e0-911c3d121a61",
                     "type": "static",
                     "format": "description",
                     "label": null,
-                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-slider.jpg?v=1.1'></div>",
+                    "value": null,
                     "variant": "h1",
                     "icon": "sicon-format-size"
                 },
                 {
                     "id": "static-note",
-                    "key": "1c73fc2c-478a-4a85-b2c7-3fd20321757c",
+                    "key": "2686d4e0-1e32-4bc9-afba-c64c6f645c18",
                     "type": "static",
                     "format": "description",
                     "label": null,
@@ -1154,7 +1154,7 @@
                 },
                 {
                     "id": "slides",
-                    "key": "1421d82d-9415-4e1a-bb70-275aaf9d5ef3",
+                    "key": "364e03f3-facf-4290-a253-3ff5fee33140",
                     "type": "collection",
                     "format": "collection",
                     "label": "صور متحركة",
@@ -1165,7 +1165,7 @@
                     "fields": [
                         {
                             "id": "slides.image",
-                            "key": "db499860-b378-4f62-9897-71db0e41f1f7",
+                            "key": "cd768e35-0ada-40b3-9fb1-28758c684952",
                             "type": "string",
                             "format": "image",
                             "label": "صوره البنر",
@@ -1178,7 +1178,7 @@
                         },
                         {
                             "id": "slides.title",
-                            "key": "4c5fc116-8167-417b-8b70-2306118e4823",
+                            "key": "f0780c4e-ef93-4346-baae-21f1eb088b74",
                             "type": "string",
                             "format": "text",
                             "label": "عنوان رئيسي",
@@ -1194,7 +1194,7 @@
                         },
                         {
                             "id": "slides.description",
-                            "key": "7e9c6885-6fb0-4cbc-a15a-670e04db3b27",
+                            "key": "b2cb5e70-4d06-485b-8688-73471260b5f4",
                             "type": "string",
                             "format": "text",
                             "label": "نص إضافي",
