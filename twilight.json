@@ -1133,55 +1133,86 @@
             "path": "home.photos_slider",
             "fields": [
                 {
-                    "id": "description",
-                    "key": "d2bca294-ef91-48eb-a601-d27a7235c739",
+                    "id": "static-desc",
+                    "key": "0982b170-7174-4556-8781-46743554deae",
                     "type": "static",
                     "format": "description",
-                    "label": "Description",
-                    "value": "عنوان فرعي",
+                    "label": null,
+                    "value": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/main-slider.jpg?v=1.1'></div>",
                     "variant": "h1",
                     "icon": "sicon-format-size"
                 },
                 {
-                    "id": "description_copy",
-                    "key": "3599af8b-46e9-4ad0-93ca-5f6e3afdad52",
+                    "id": "static-note",
+                    "key": "6acb4897-653f-4381-bb15-e83aa53c9686",
                     "type": "static",
                     "format": "description",
-                    "label": "Description copy",
-                    "value": "عنوان رائسي",
+                    "label": null,
+                    "value": "<h4 >هذا العنصر غير مناسب لعرض البنرات، يمكنك استخدام عنصر <strong>صور متحركة</strong> بدلاً من هذا العنصر لتظهر صورة البنر بشكل كامل</h4>",
                     "variant": "h1",
-                    "icon": "sicon-format-size",
-                    "defaulted": true
+                    "icon": "sicon-format-size"
                 },
                 {
                     "id": "sor_mthrkt",
-                    "key": "4b70890e-9275-43e3-910e-37ebda472ba9",
+                    "key": "618ae6d5-3a18-45bd-9b58-6e631d80dfa6",
                     "type": "collection",
                     "format": "collection",
                     "label": "صور متحركة",
-                    "description": "link_type",
+                    "description": null,
                     "labelHTML": null,
-                    "item_label": "صور متحركة",
+                    "item_label": "صورة",
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "sorh_albnr",
-                            "key": "afcb0c88-0909-4912-bcd5-32b870490120",
+                            "id": "slides.image",
+                            "key": "fb09f09e-19cc-465f-82a3-59d62e757ea1",
                             "type": "string",
                             "format": "image",
                             "label": "صوره البنر",
-                            "description": "الصوره 600*600",
+                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
                             "labelHTML": null,
-                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "placeholder": null,
                             "icon": "sicon-image",
                             "value": null,
-                            "required": false
+                            "required": true
+                        },
+                        {
+                            "id": "slides.title",
+                            "key": "bc2b7d1a-ec5b-4b0d-96b6-08e337ca5737",
+                            "type": "string",
+                            "format": "text",
+                            "label": "عنوان رئيسي",
+                            "description": "يتم عرضه على الصورة بحجم بارز جداً، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
+                            "labelHTML": null,
+                            "placeholder": "يمكنك إضافة عنوان بارز هنا...",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": true,
+                            "required": false,
+                            "minLength": "1",
+                            "maxLength": "100"
+                        },
+                        {
+                            "id": "slides.description",
+                            "key": "ce579b55-7dc9-433f-bcd1-a2dcb106217c",
+                            "type": "string",
+                            "format": "text",
+                            "label": "نص إضافي",
+                            "description": "يتم عرضه على الصورة بحجم بارز جداً، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
+                            "labelHTML": null,
+                            "placeholder": "يمكنك إضافة عنوان بارز هنا...",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": true,
+                            "required": false,
+                            "minLength": "1",
+                            "maxLength": "200"
                         }
                     ],
                     "value": [],
-                    "required": false,
+                    "required": true,
                     "minLength": 1,
-                    "maxLength": 5
+                    "maxLength": "10"
                 }
             ]
         }
