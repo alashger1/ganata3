@@ -1109,6 +1109,13 @@
                     "maxLength": 5
                 }
             ]
+        },
+        {
+            "key": "57a8097d-2b4e-47da-91b4-285bc1cc8783",
+            "title": "صور متحركة",
+            "icon": "sicon-store",
+            "path": "home.photos_slider",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
