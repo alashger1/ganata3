@@ -1036,6 +1036,13 @@
                     "maxLength": 5
                 }
             ]
+        },
+        {
+            "key": "b3187e93-5a6b-4194-8e28-f00077246f26",
+            "title": "احدث المنتجات",
+            "icon": "sicon-store",
+            "path": "home.Latest_Products",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
