@@ -1215,6 +1215,13 @@
                     "maxLength": "10"
                 }
             ]
+        },
+        {
+            "key": "a3a91057-eecc-4f99-87e8-9ffbbcfebefe",
+            "title": "روابط سريعه",
+            "icon": "sicon-store",
+            "path": "home.main11-links",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
