@@ -750,7 +750,7 @@
             "fields": [
                 {
                     "id": "collection",
-                    "key": "95909270-6918-41e7-9795-3e0e7cd17bcc",
+                    "key": "b31b37aa-7a77-42d6-bc09-7b1eef340093",
                     "type": "collection",
                     "format": "collection",
                     "label": "Collection",
@@ -761,7 +761,7 @@
                     "fields": [
                         {
                             "id": "text",
-                            "key": "6ef374c4-a82e-4609-a8c8-8b35a1006683",
+                            "key": "00f34a66-f38d-45d8-85b5-1090de861a87",
                             "type": "string",
                             "format": "text",
                             "label": "text",
@@ -771,13 +771,13 @@
                             "icon": "sicon-format-text-alt",
                             "value": null,
                             "multilanguage": false,
-                            "required": false,
+                            "required": true,
                             "minLength": 6,
                             "maxLength": 30
                         },
                         {
                             "id": "image",
-                            "key": "63c9e29a-ec29-4af6-bba3-a0bd3727a0dc",
+                            "key": "d1ed33ae-20a9-47f1-ae0d-78cfda66bf61",
                             "type": "string",
                             "format": "image",
                             "label": "Image",
@@ -786,12 +786,12 @@
                             "placeholder": "e.g. https://hostname.com/image.png",
                             "icon": "sicon-image",
                             "value": null,
-                            "required": false,
+                            "required": true,
                             "defaulted": true
                         },
                         {
                             "id": "title",
-                            "key": "2adda3ee-17c3-447a-b538-b22f2e7b258d",
+                            "key": "31c36199-1a76-4385-b8d8-e560bc00869e",
                             "type": "string",
                             "format": "text",
                             "label": "عنوان الرئيسى",
@@ -801,13 +801,13 @@
                             "icon": "sicon-format-text-alt",
                             "value": null,
                             "multilanguage": true,
-                            "required": false,
+                            "required": true,
                             "minLength": 6,
                             "maxLength": 30
                         },
                         {
                             "id": "products",
-                            "key": "d9679006-b0cd-476b-b3d2-8cec3bd18678",
+                            "key": "10ad8cc3-2a46-4f52-bafb-6c671f0cf00e",
                             "type": "items",
                             "format": "dropdown-list",
                             "label": "منتجات",
