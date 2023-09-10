@@ -1,0 +1,15 @@
+<section class="s-block s-block--features container">
+    
+    {% for features in component.collection1 %}
+        <div class="s-block--features__item">
+         
+              <a href="{{ features.url }}">
+                  <img width="100%"   src="{{ features.image }}" alt=""/>
+              </a>
+         
+          <h4>{{ features.string }}</h4>
+       
+        </div>
+    {% endfor %}
+  
+</section>
