@@ -1221,7 +1221,128 @@
             "title": "روابط سريعه",
             "icon": "sicon-store",
             "path": "home.main11-links",
-            "fields": []
+            "fields": [
+                {
+                    "id": "static-desc",
+                    "key": "a3216943-eb1e-4bff-a980-e17c102c45a6",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "title",
+                            "key": "6ad3aa02-e460-4792-a11f-d76d0f930d78",
+                            "type": "string",
+                            "format": "text",
+                            "label": "العنوان",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": true,
+                            "required": true,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "merge_with_top_component",
+                            "key": "b739d85b-d145-4876-acbd-c733417bc8cf",
+                            "type": "boolean",
+                            "format": "switch",
+                            "label": "دمج مع العنصر السابق",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-toggle-off",
+                            "value": true,
+                            "selected": false,
+                            "required": false
+                        },
+                        {
+                            "id": "aard_ashm_althrk",
+                            "key": "43834dea-cd35-439b-bec9-528de07263cc",
+                            "type": "boolean",
+                            "format": "switch",
+                            "label": "عرض أسهم التحرك",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-toggle-off",
+                            "value": true,
+                            "selected": false,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                },
+                {
+                    "id": "links",
+                    "key": "bf2ace44-de6a-4533-8a1e-f2fc0a87906d",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection 1",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": "رابط",
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "links.icon",
+                            "key": "700f5690-1573-4089-8ff2-12a73dcccf13",
+                            "type": "string",
+                            "format": "icon",
+                            "label": "Icon Picker",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-user-circle",
+                            "value": "sicon-store",
+                            "required": false
+                        },
+                        {
+                            "id": "links.title",
+                            "key": "4335ca72-9642-414e-9424-ea4dc66a79c8",
+                            "type": "string",
+                            "format": "text",
+                            "label": null,
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "links.url",
+                            "key": "83a1cccd-b79b-44a1-83ff-ef211f01f4c9",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "Dropdown List",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [],
+                            "source": "Manual",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         },
         {
             "key": "c8cce781-c04e-4895-8951-00aace0ac520",
