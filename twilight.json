@@ -1350,6 +1350,13 @@
             "icon": "sicon-image1",
             "path": "home.featured_products_style3",
             "fields": []
+        },
+        {
+            "key": "ed92c245-e04d-4890-9ca3-b53be98458b0",
+            "title": "فئلة المتجر",
+            "icon": "sicon-image1",
+            "path": "header.bread_crumbs",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
