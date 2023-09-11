@@ -1356,7 +1356,50 @@
             "title": "فئلة المتجر",
             "icon": "sicon-image1",
             "path": "header.bread_crumbs",
-            "fields": []
+            "fields": [
+                {
+                    "id": "breadcrumb",
+                    "key": "e7cedb23-c3aa-45e6-a71d-3012f09ec963",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "title",
+                            "key": "2c336ebc-1919-4559-9f58-de79f571df8b",
+                            "type": "static",
+                            "format": "title",
+                            "label": "Title",
+                            "value": null,
+                            "variant": "h1",
+                            "icon": "sicon-format-text",
+                            "defaulted": true
+                        },
+                        {
+                            "id": "image",
+                            "key": "8c2ebec1-65d0-486d-a88d-f33ff465e1a2",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false,
+                            "defaulted": true
+                        }
+                    ],
+                    "value": [],
+                    "required": false,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
