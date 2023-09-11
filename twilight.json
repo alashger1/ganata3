@@ -838,7 +838,7 @@
             "fields": [
                 {
                     "id": "collection1",
-                    "key": "696824df-7925-4770-8c2e-695fac34f514",
+                    "key": "ca4163ac-d769-439b-83ef-03a85f687b41",
                     "type": "collection",
                     "format": "collection",
                     "label": "بنرات ثابيتة",
@@ -848,22 +848,8 @@
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "image",
-                            "key": "08cc24a9-14c4-44a6-9f5b-712f66a82cad",
-                            "type": "string",
-                            "format": "image",
-                            "label": "Image",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": null,
-                            "icon": "sicon-image",
-                            "value": null,
-                            "required": false,
-                            "defaulted": true
-                        },
-                        {
                             "id": "aanoan_alrese",
-                            "key": "abd405d3-f9f4-4dce-966b-adc546d769f7",
+                            "key": "42370343-6afe-40fd-9e38-2ab496e36528",
                             "type": "static",
                             "format": "description",
                             "label": "عنوان الرئسي",
@@ -873,7 +859,7 @@
                         },
                         {
                             "id": "string",
-                            "key": "2eddc1c8-8d06-4661-8f61-f4e040b6d8c0",
+                            "key": "6f19d1f2-e68e-4d6f-8c4d-8ca9d3d1c6f2",
                             "type": "string",
                             "format": "text",
                             "label": "String",
@@ -889,22 +875,21 @@
                             "defaulted": true
                         },
                         {
-                            "id": "image_1",
-                            "key": "0e1e9fd5-2d92-47e7-b0d8-7306aa35d4ae",
+                            "id": "image",
+                            "key": "0a201602-058e-46d5-9f0d-80f1bb06d584",
                             "type": "string",
                             "format": "image",
-                            "label": "Image 1",
+                            "label": "Image",
                             "description": null,
                             "labelHTML": null,
-                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "placeholder": null,
                             "icon": "sicon-image",
                             "value": null,
-                            "required": false,
-                            "defaulted": true
+                            "required": false
                         },
                         {
                             "id": "dropdown_list",
-                            "key": "2026ccc7-b660-4494-bcdc-3eb80693c63c",
+                            "key": "478368cc-c65e-4539-ab96-815ab8ebe8d7",
                             "type": "items",
                             "format": "dropdown-list",
                             "label": "Dropdown List",
@@ -912,13 +897,7 @@
                             "labelHTML": null,
                             "icon": "sicon-keyboard_arrow_down",
                             "selected": [],
-                            "options": [
-                                {
-                                    "label": null,
-                                    "value": "Value 1",
-                                    "key": "2f2098e0-7766-43a1-848c-1a49c1dc197f"
-                                }
-                            ],
+                            "options": [],
                             "source": "Manual",
                             "multichoice": true,
                             "searchable": true,
