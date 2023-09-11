@@ -838,7 +838,7 @@
             "fields": [
                 {
                     "id": "collection1",
-                    "key": "4f147524-dbda-4a61-bb55-8f5591060034",
+                    "key": "696824df-7925-4770-8c2e-695fac34f514",
                     "type": "collection",
                     "format": "collection",
                     "label": "بنرات ثابيتة",
@@ -849,21 +849,31 @@
                     "fields": [
                         {
                             "id": "image",
-                            "key": "df2f3896-843a-474d-b19e-1491455664ed",
+                            "key": "08cc24a9-14c4-44a6-9f5b-712f66a82cad",
                             "type": "string",
                             "format": "image",
                             "label": "Image",
                             "description": null,
                             "labelHTML": null,
-                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "placeholder": null,
                             "icon": "sicon-image",
                             "value": null,
                             "required": false,
                             "defaulted": true
                         },
                         {
+                            "id": "aanoan_alrese",
+                            "key": "abd405d3-f9f4-4dce-966b-adc546d769f7",
+                            "type": "static",
+                            "format": "description",
+                            "label": "عنوان الرئسي",
+                            "value": null,
+                            "variant": "h1",
+                            "icon": "sicon-format-size"
+                        },
+                        {
                             "id": "string",
-                            "key": "c8455a13-5476-465b-b0d3-f907b8bc9b4f",
+                            "key": "2eddc1c8-8d06-4661-8f61-f4e040b6d8c0",
                             "type": "string",
                             "format": "text",
                             "label": "String",
@@ -876,6 +886,43 @@
                             "required": false,
                             "minLength": 6,
                             "maxLength": 30,
+                            "defaulted": true
+                        },
+                        {
+                            "id": "image_1",
+                            "key": "0e1e9fd5-2d92-47e7-b0d8-7306aa35d4ae",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image 1",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false,
+                            "defaulted": true
+                        },
+                        {
+                            "id": "dropdown_list",
+                            "key": "2026ccc7-b660-4494-bcdc-3eb80693c63c",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "Dropdown List",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [
+                                {
+                                    "label": null,
+                                    "value": "Value 1",
+                                    "key": "2f2098e0-7766-43a1-848c-1a49c1dc197f"
+                                }
+                            ],
+                            "source": "Manual",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false,
                             "defaulted": true
                         }
                     ],
